@@ -17,7 +17,7 @@
         }
     },
     "params": {
-        "gasLimitBoundDivisor": "0x0400i",
+        "gasLimitBoundDivisor": "0x0400",
         "registrar": "0x81a4b044831c4f12ba601adb9274516939e9b8a2",
         "eip155Transition": 10,
         "accountStartNonce": "0x0",
@@ -40,6 +40,6 @@
         "gasLimit": "0x1000000"
     },
     "accounts": {
-        "0x8a8d0b7bc3cdd255633cf9ba8dc0ccc8a020eb80": { "balance": "35000000000000000000000000", "nonce": "0", "builtin": { "name": "AtlasDotWork", "pricing": { "linear": { "base": 3000, "word": 0 } } } }
+        "0x1f233b9057f17a8b476ba94877bdcbccd1dc3d79": { "balance": "35000000000000000000000000", "nonce": "0", "builtin": { "name": "AtlasDotWork", "pricing": { "linear": { "base": 3000, "word": 0 } } } }
     }
 }
