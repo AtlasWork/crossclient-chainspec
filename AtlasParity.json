@@ -1,6 +1,6 @@
 {
     "name": "Atlas",
-    "dataDir": "./atlaschain",
+    "dataDir": "atlaschain",
     "engine": {
         "Ethash": {
             "params": {
@@ -20,6 +20,7 @@
         "gasLimitBoundDivisor": "0x0400",
         "registrar": "0x81a4b044831c4f12ba601adb9274516939e9b8a2",
         "eip155Transition": 10,
+        "eip98Transition": "0x7fffffffffffffff",
         "accountStartNonce": "0x0",
         "maximumExtraDataSize": "0x20",
         "minGasLimit": "0x1388",
@@ -40,6 +41,6 @@
         "gasLimit": "0x1000000"
     },
     "accounts": {
-        "0x1f233b9057f17a8b476ba94877bdcbccd1dc3d79": { "balance": "35000000000000000000000000", "nonce": "0", "builtin": { "name": "AtlasDotWork", "pricing": { "linear": { "base": 3000, "word": 0 } } } }
+        "0x1f233b9057f17a8b476ba94877bdcbccd1dc3d79": { "balance": "35000000000000000000000000" }
     }
 }
