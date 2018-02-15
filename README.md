@@ -11,8 +11,8 @@ Templated and stripped from the inital ropsten chain spec for both clients.
 
 Geth:
 
-    $ geth init --datadir ~/.atlaschain/ AtlasGenesis.json
-    $ geth --datadir ~/.atlaschain/ --networkid 9082075 --port 57200 --rpcport 8080
+    $ ./geth init --datadir ~/.atlaschain/ AtlasGenesis.json
+    $ ./geth --datadir ~/.atlaschain/ --networkid 9082075 --port 57200 --rpcport 8080 console
 
 Parity:
 
